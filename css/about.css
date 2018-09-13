@@ -1,25 +1,28 @@
 /* Style all font awesome icons */
-.fa {
-    padding: 20px;
+.fab {
+   
     font-size: 30px;
-    width: 50px;
+    width: 5px;
+    color: #66AED6; 
+    display: inline-block; 
+    margin: 0 20px;
+}
+
+.fab:hover {
+    opacity: 0.5;
+}
+
+#headshot {
+    float: left;
+}
+
+#hello {
     text-align: center;
-    text-decoration: none;
+    border-width: 10px;
+    border-color: black;
 }
 
-/* Add a hover effect if you want */
-.fa:hover {
-    opacity: 0.7;
+#aboutme {
+    padding: 20px;
 }
 
-/* LinkedIn */
-.linkedInButton {
-    background: #3B5998;
-    color: white;
-}
-
-/* GitHub*/
-.githubButton {
-    background: #55ACEE;
-    color: white;
-}

@@ -1,7 +1,22 @@
 #portfolio {
-padding: 20px;
-font-size: 30px;
-width: 50px;
-text-align: center;
-text-decoration: none;
+    text-align: center;
+    border-width: 10px;
+    border-color: black;
 }
+
+#creature {
+    float: right;
+}
+
+#onlinestore {
+    
+}
+
+#apiproject {
+    float: right;
+}
+
+#resume {
+    text-align: center;
+}
+
