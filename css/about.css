@@ -1,3 +1,8 @@
+#sec-one {
+    background-color: #faf2e9;
+    margin: 4%;    
+}
+
 /* Style all font awesome icons */
 .fab {
    
@@ -24,5 +29,6 @@
 
 #aboutme {
     padding: 20px;
+    color: rgb(121, 120, 120);
 }
 

@@ -13,6 +13,7 @@
 <body>
 
     </div>
+      <section>
         <!-- naviation -->
         <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
             <div class="container topnav">
@@ -43,25 +44,26 @@
                     </div>
                 </div>
           </nav> 
+        </section>
 <!-- landing/header page -->
           <header class="masthead">
+            <div id="sec-zero">
               <div class="container">
                 <div class="intro-text">
                   <img id="lightbulb" src="../portfolio/headerimagelightbulb.jpg" width="750" height="750">
                 </div>
               </div>
+            </div>
             </header>
  
-<br />
-<br />
-<br />
-<br />
-<br />
+
 <!-- //(section id) makes the portofolio one page -->
     <section id="about"></section>
-
+            <div id="sec-one">
             <a name="about"></a>
             <div class="container">
+                <br />
+                <br />
             <h1 id="hello">Hello, My name is Ieshia Hill!</h1>
             <br />
             <br />
@@ -71,24 +73,27 @@
             <p id="aboutme">I am an artist, a writer and a software developer in training based in Indianapolis, Indiana. I am currently a full-time student at the <a href="https://www.elevenfifty.org/about-eleven-fifty/" target="blank">Eleven Fifty Academy</a>, one top coding programs in the country, where I am participating in a 12-week immersive, project-driven JavaScript course. My professional background is in writing, sales and customer service. For the past five years, I have worked in the customer service, inside sales and the account management department at a fluid analysis laboratory. My professional work experience has allowed me to develop strong skills in customer service, relationship building, project management, communications and sales. Although I enjoyed working on the business side, the creative side of me was anxious to explode so I decide tap into my creativity by creating web content for a local real estate company as a contract writer and by creating pencil art. I decided to explore the tech field as it will allow me to create while utilizing my business skills as well.    </p>  
            <div class="side-block"></div>
             <a href="https://www.linkedin.com/in/ieshia-hill-a5053178/" target="blank" align="left"><i class="fab fa-linkedin-in"></i>
-            <a href="https://github.com/ieshiahill" target="blank" align="left"><i class="fab fa-github"></i>     
+            <a href="https://github.com/ieshiahill" target="blank" align="left"><i class="fab fa-github"></i>  
+              <br />
+              <br />   
+              <br />
+              <br />
+              <br />
+              <br />
             </div>
           </div>
+         
             <section>
-            <br />
-            <br />
+            
             </div>
-            <br />
-            <br />
-            <br />
-            <br />
+          </div>
+          
+          
            
 
 <!-- //(section id) makes the portofolio one page -->
-    <div>
+    <div id="sec-two">
     <section id="portfolio"></section>
-    <br />
-    <br />
             <br />
             <br />
             <br />
@@ -102,60 +107,54 @@
     <div class="row">
         <div class="column">
           <div class="card">
-              <img id="creature" src="../portfolio/gumby.png" alt="CSS Creature" style="width:100%">
+              <img id="creature" src="../portfolio/gumby.png" alt="CSS Creature">
             <div class="container">
-              <h2>CSS Creature</h2>
-              <p><button class="button">Take A Look!</button></p>
+              <h2 id="porttext">CSS Creature</h2>
+              <a href="https://codepen.io/inhill/pen/GXZbQz" target="blank"><button class="button">Take A Look!</button></a>
             </div>
           </div>
         </div>
       
         <div class="column">
           <div class="card">
-              <img id="onlinestore" src="../portfolio/onlinestore.png" alt="Online Store" style="width:100%">
+              <img id="onlinestore" src="../portfolio/onlinestore2.png" alt="Online Store">
             <div class="container">
-              <h2>Online Store</h2>
-              <p><button class="button">Take A Look!</button></p>
+              <h2 id="porttext">Online Store</h2>
+              <a href="https://ieshiahill.github.io/firstWebsite/" target="blank"><button class="button">Take A Look!</button></a>
             </div>
           </div>
         </div>
       
         <div class="column">
           <div class="card">
-              <img id="apiproject" src="../portfolio/logo.jpg" alt="API Project" style="width:100%">
+              <img id="apiproject" src="../portfolio/sportsguide2.png" alt="API Project">
             <div class="container">
-              <h2>API Project</h2>
-              <p><button class="button">Take A Look!</button><p>
-             
+              <h2 id="porttext">API Project</h2>
+              <a href="https://api-project-8227a.firebaseapp.com/" target="blank"><button class="button">Take A Look!</button><a>
+                </div>
             </div>
-          </div>
-        </div>
+            <br />
+            <br />
+    </div>
+  </div>
       </div>
-
-<br />
-<br />
-
-
-    <div>
-        <form>
-            <button id="resume" formaction="https://sites.google.com/view/inhresume" target="blank">Download Resume</button> 
-        </form> 
+      <div>
+          <form id="resumebutton">
+              <button id="resume" formaction="https://sites.google.com/view/inhresume" target="blank">Download Resume</button> 
+              
+          </form> 
         </div>
-
-    <br />
-    <br />
-    <br />
 
 <!-- //(section id) makes the portofolio one page -->
     <section id="contact">
       <a name="contact"></a>
+      <div id="sec-three">
             <div class="container">
               <br />
               <br />
-              <br />
-              <h2 class="text-center text-uppercase">Contact Me</h2>
+              <h2 class="text-center">Contact Me</h2>
               <div class="row">
-                <form action="https://formspree.io/ieshianhill@gmail.com" method="POST">
+                <form id="form" action="https://formspree.io/ieshianhill@gmail.com" method="POST">
                   <div class="control-group">
                     <div class="form-group">
                       <label>Name</label>
@@ -206,10 +205,13 @@
                       <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
                       Send Message
                     </button>
+                    <br />
+                    <br />
                   </div>
                 </form>
               </div>
             </div>
+          </div>
           </section>
 
 
@@ -219,7 +221,7 @@
 
     </ul>
         </footer>
-
+      
         <div class="footer-bottom-area bg-dark-light section-padding-sm">
             <div class="container">
                 <div class="row widgets footer-widgets">
@@ -230,7 +232,7 @@
 <br />
 <br />
                             <h5 class="widget-title">Meet Ieshia Hill</h5>
-                            <p>I am an artist, a writer and a software developer in training based in Indianapolis, Indiana. I am currently a full-time student at the Eleven Fifty Academy, <a href="www.dkstudio.in">Readmore...</a></p>
+                            <p id="footertext">I am an artist, a writer and a software developer in training based in Indianapolis, Indiana. I am currently a full-time student at the Eleven Fifty Academy, <a href="file:///Users/ieshia/Desktop/javascript-library/Projects/portfolio/index.html#about">Readmore...</a></p>
                         </div>
                     </div>
 

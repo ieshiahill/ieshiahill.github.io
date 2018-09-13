@@ -21,7 +21,7 @@
     bottom: 0;
     height: 2px;
     width: 100px;
-    background: #13bfb1;
+    background: #c0e0f0;
 }
 .widgets.footer-widgets .widget-quick-links ul {
     margin-top: -4px;
@@ -75,4 +75,8 @@
 
 .widgets.footer-widgets .widget-contact ul li + li {
     margin-top: 20px;
+}
+
+#footertext {
+    color: rgb(121, 120, 120);
 }
