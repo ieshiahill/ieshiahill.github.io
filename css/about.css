@@ -1,6 +1,7 @@
 #sec-one {
     background-color: #faf2e9;
-    margin: 4%;    
+    margin: 4%;   
+    text-align: center;
 }
 
 /* Style all font awesome icons */
@@ -30,5 +31,9 @@
 #aboutme {
     padding: 20px;
     color: rgb(121, 120, 120);
+}
+
+.me {
+    text-align: center;
 }
 
