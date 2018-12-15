@@ -1,6 +1,6 @@
 #sec-one {
-    background-color: #faf2e9;
-    margin: 4%;   
+    /* background-color: #faf2e9; */
+    margin: 1%;   
     /* text-align: center; */
 }
 
@@ -9,7 +9,7 @@
    
     font-size: 30px;
     width: 5px;
-    color: #66AED6; 
+    /* color: #66AED6;  */
     display: inline-block; 
     margin: 0 20px;
 }
@@ -30,7 +30,7 @@
 
 #aboutme {
     padding: 20px;
-    color: rgb(121, 120, 120);
+    /* color: rgb(121, 120, 120); */
 }
 
 .me {
