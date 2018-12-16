@@ -18,9 +18,9 @@
     opacity: 0.5;
 }
 
-#headshot {
-    float: right;
-}
+/* #headshot {
+    align-content: right;
+} */
 
 #hello {
     text-align: center;
@@ -40,7 +40,7 @@
 .side-block {
     float: right;
 }
-/* 
+
 #abouttext {
-    float: left;
-} */
+    text-align: left;
+}
