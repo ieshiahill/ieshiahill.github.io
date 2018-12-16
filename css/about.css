@@ -19,7 +19,7 @@
 }
 
 #headshot {
-    float: left;
+    float: right;
 }
 
 #hello {
@@ -40,7 +40,7 @@
 .side-block {
     float: right;
 }
-
+/* 
 #abouttext {
-    float: right;
-}
+    float: left;
+} */
