@@ -1,3 +1,11 @@
+.footer {
+    background-color: #fcfaf1;
+    margin: 3%;
+    padding: 3%;
+}
+
+
+
 .bg-dark-light {
     background: light gray;
 }

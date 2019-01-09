@@ -1,7 +1,11 @@
 #sec-two {
     background-color: #fcfaf1;
-    margin: 1%;  
+    margin: 3%; 
     /* display: block; */
+}
+
+#intro {
+    background-color: black;
 }
 
 /*don't change anything below here*/

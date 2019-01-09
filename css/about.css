@@ -1,9 +1,9 @@
-/* #sec-one {
-    background-color: #f3f1ec;
-    margin: 1%;  
-    /* padding: 10%;  */
-    /* text-align: center; */
-/* }  */
+#sec-one {
+    background-color: #cdd8df;
+    margin: 3%; 
+    padding: 3%;
+}
+
 
 /* #sec-1 {
     background-color: #e6b31e;
@@ -29,6 +29,7 @@
 
 #headshot {
     align-content: right;
+    float: left;
 }
 
 #hello {
@@ -47,7 +48,7 @@
 }
 
 .side-block {
-    position: absolute;
+    float: right;
 }
 
 #abouttext {
